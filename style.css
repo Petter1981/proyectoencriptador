@@ -1,0 +1,131 @@
+* {
+  background: #f7f7f7; /* Fondo gris claro */
+  font-family: 'Courier New', monospace; /* Fuente monoespaciada */
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  color: #0066ff; /* Texto azul */
+}
+
+.logo {
+  padding-top: 10px;
+  margin-left: 10px;
+  margin-top: 20px;
+  width: 8%;
+  border: 1px solid #0066ff; /* Borde azul */
+  border-radius: 25px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+main {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  justify-content: center;
+  background: #f7f7f7; /* Fondo gris claro */
+  padding: 20px;
+  border: 1px solid #0066ff; /* Borde azul */
+  border-radius: 25px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.entrada-texto {
+  resize: none;
+  margin-top: 90px;
+  color: #0066ff; /* Texto azul */
+  border: none;
+  background: #f7f7f7; /* Fondo gris claro */
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.entrada-texto::placeholder {
+  color: #66CC66; /* Texto verde claro */
+}
+
+.entrada-texto:focus {
+  outline: none;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.salida-texto {
+  resize: none;
+  margin-left: 98px;
+  padding: 20px;
+  padding-bottom: 120px;
+  height: 612px;
+  color: #0066ff; /* Texto azul */
+  background: #f7f7f7; /* Fondo gris claro */
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.salida-texto:focus {
+  outline: none;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.restriccion {
+  color: #66CC66; /* Texto verde claro */
+  font-size: 16px;
+}
+
+.botones {
+  display: flex;
+  margin-top: 18px;
+}
+
+.encriptar {
+  color: #0066ff; /* Texto azul */
+  background: #f7f7f7; /* Fondo gris claro */
+  border: 1px solid #0066ff; /* Borde azul */
+  border-radius: 25px;
+  cursor: pointer;
+  height: 67px;
+  width: 328px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.desencriptar {
+  color: #0066ff; /* Texto azul */
+  background: #f7f7f7; /* Fondo gris claro */
+  border: 1px solid #0066ff; /* Borde azul */
+  border-radius: 25px;
+  cursor: pointer;
+  height: 67px;
+  margin-left: 30px;
+  width: 328px;
+  box-shadow: 0 0 10px #0066ff; /* Sombra azul */
+}
+
+.dinamico {
+  background: transparent;
+  margin-left: 120px;
+  margin-top: -240px;
+  width: 360px;
+  position: absolute;
+  text-align: center;
+  color: #0066ff; /* Texto azul */
+}
+
+.texto1 {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: initial;
+  background: transparent;
+  color: #0066ff; /* Texto azul */
+}
+
+.texto2 {
+  font-size: 16px;
+  line-height: initial;
+  background: transparent;
+  color: #66CC66; /* Texto verde claro */
+}
+
+.copiar {
+  color: #0066ff; /* Texto azul */
+  background: #f7f7f7; /* Fondo gris claro */
+  border: 1px solid #
